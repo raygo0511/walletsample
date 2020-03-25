@@ -1,0 +1,8 @@
+framework module "Gomobile4wallet" {
+	header "ref.h"
+    header "Gomobile4wallet.objc.h"
+    header "Universe.objc.h"
+    header "Gomobile4wallet.h"
+
+    export *
+}

@@ -15,6 +15,7 @@
 		71566D4C240E427200632725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71566D4A240E427200632725 /* LaunchScreen.storyboard */; };
 		71566D57240E427200632725 /* walletDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71566D56240E427200632725 /* walletDemoTests.swift */; };
 		71566D62240E427200632725 /* walletDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71566D61240E427200632725 /* walletDemoUITests.swift */; };
+		7179EE1D241109AF00EEB69B /* Gomobile4wallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7179EE1C241109AF00EEB69B /* Gomobile4wallet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		71566D5D240E427200632725 /* walletDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = walletDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71566D61240E427200632725 /* walletDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walletDemoUITests.swift; sourceTree = "<group>"; };
 		71566D63240E427200632725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7179EE1C241109AF00EEB69B /* Gomobile4wallet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Gomobile4wallet.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7179EE1D241109AF00EEB69B /* Gomobile4wallet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +82,7 @@
 		71566D33240E427000632725 = {
 			isa = PBXGroup;
 			children = (
+				7179EE1C241109AF00EEB69B /* Gomobile4wallet.framework */,
 				71566D3E240E427000632725 /* walletDemo */,
 				71566D55240E427200632725 /* walletDemoTests */,
 				71566D60240E427200632725 /* walletDemoUITests */,
@@ -436,6 +440,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z475T8YRZ2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = walletDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +462,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z475T8YRZ2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = walletDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
